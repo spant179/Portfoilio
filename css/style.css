@@ -1,0 +1,205 @@
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  line-height: 1.4;
+  color: beige;
+  overflow-x: hidden;
+
+}
+html{
+  font-size: 20px;
+}
+
+/*Utility Classes */
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.text-primary {
+    color: #ededf1;
+}
+
+/* Navbar */
+ #navbar {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(127, 180, 240);
+    color: rgb(247, 242, 238);
+    padding:  1.5rem 8rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 3px solid #0a0a0a;
+}
+ #navbar ul  {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+ #navbar h2 a {
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+
+}
+
+ #navbar li a  {
+    text-decoration: none;
+    color: rgb(243, 235, 235);
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+}
+
+#navbar li a:hover{
+    background-color: #cae0f8;
+}
+
+
+#about {
+    padding: 5rem 0;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem ;
+    color: rgb(241, 88, 96);
+}
+
+#about p.lead {
+    margin-bottom: 1rem;
+    display: flex;
+    color: rgb(105, 173, 236);
+    text-align: justify;
+    background-color: rgb(248, 245, 245);
+
+}
+
+#about .about-content{
+  display: flex;
+}
+
+#about .about-text{
+    text-align: left;
+    display: inline;
+}
+
+#about .about-image img {
+    display: block;
+    margin-left: auto;
+    width: 50%;
+    border-radius: 320%;
+    margin-top: 60px;
+}
+
+.Portfolio {
+    border: 5px solid rgb(223, 199, 199);
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .Portfolio h3 {
+    font-size: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: lightblue;
+  }
+  
+  .Portfolio p {
+    font-size: 25px;
+  }
+  
+  .projectcontainer {
+    display: flex;
+    flex: 50%;
+    max-width: 90%;
+    margin-top: 80px;
+    position: relative;
+  }
+
+  /* Resized portfolio photos to fit on the page*/
+.Portfolio img {
+    width: 65%;
+    border: 5px solid grey;
+    padding: 5px;
+   }
+   
+   .overlay {
+     font-size: 30px;
+     color: lightblue;
+     margin: 6px;
+   }
+   
+   .projectimage:hover {
+     zoom: 5;
+   }
+
+.ContactMe {
+  text-align: center;
+  padding: 60px;
+  border: 5px solid white;
+  background-color: rgb(234, 235, 243);
+  font-size: 35px;
+  color: black;
+}
+
+.ContactMe a {
+  font-size: 18px;
+  color: rgb(228, 140, 206);
+  display: inline-block;
+}
+
+.contactinfo:hover {
+    color: lightblue;
+}
+
+.contactinfo:active {
+  color: rgb(221, 179, 221);
+}
+footer h5 {
+  text-align: center;
+  background-color: rgb(115, 135, 202);
+  font-size: 30px;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  /* Use flex-direction to stack the navbar, sidebar, and body */
+  main,
+  nav {
+    flex-direction: column;
+  }
+  #ContactMe, header {
+    background-color: rgb(238, 208, 238);
+    text-align: center;
+  }
+ }
+
+ @media screen and (max-width: 600px) {
+  /* Use flex-direction to stack the navbar, sidebar, and body */
+  main,
+  nav {
+    display: flex;
+    flex-direction: center;
+  }
+  #ContactMe, header {
+    background-color: rgb(228, 179, 228);
+    text-align: center;
+  }
+ }
