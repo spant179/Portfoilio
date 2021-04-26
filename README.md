@@ -27,7 +27,7 @@ Open index.html in Chrome
 This project has been deployed and is live on GitHub. Click the links below.
 
 -  [Sandhya Pant GitHub Repository](https://github.com/spant179)
--   [Portfolio](http://127.0.0.1:5500/index.html)
+-   [Portfolio](https://spant179.github.io/Portfoilio/)
 
 ***
 ### __License__
