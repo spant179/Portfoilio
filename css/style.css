@@ -10,6 +10,7 @@ body{
   line-height: 1.4;
   color: beige;
   overflow-x: hidden;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url('../background.jpeg');
 
 }
 html{
@@ -80,9 +81,9 @@ html{
 #about p.lead {
     margin-bottom: 1rem;
     display: flex;
-    color: rgb(105, 173, 236);
+    color: rgb(250, 245, 245);
     text-align: justify;
-    background-color: rgb(248, 245, 245);
+    
 
 }
 
@@ -104,7 +105,7 @@ html{
 }
 
 .Portfolio {
-    border: 5px solid rgb(223, 199, 199);
+    border: 0px solid rgb(209, 151, 151);
     padding-top: 10px;
     padding-right: 30px;
     padding-bottom: 100px;
@@ -117,8 +118,8 @@ html{
   .Portfolio h3 {
     font-size: 50px;
     padding-bottom: 20px;
-    text-align: center;
-    color: lightblue;
+    text-align:center;
+    color: rgb(236, 228, 228);
   }
   
   .Portfolio p {
@@ -136,18 +137,18 @@ html{
   /* Resized portfolio photos to fit on the page*/
 .Portfolio img {
     width: 65%;
-    border: 5px solid grey;
+    border: 5px solid rgb(245, 233, 233);
     padding: 5px;
    }
    
    .overlay {
-     font-size: 30px;
-     color: lightblue;
+     font-size: 0px;
+     color: rgb(240, 242, 243);
      margin: 6px;
    }
    
    .projectimage:hover {
-     zoom: 5;
+     zoom: 4;
    }
 
 .ContactMe {
